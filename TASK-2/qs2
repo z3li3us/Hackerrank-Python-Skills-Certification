@@ -1,0 +1,31 @@
+Python: Shape Classes with Area Method
+
+Implement two classes:
+Rectangle:
+	The constructor for Rectangle must take two arguments that denote the length of the rectangle’s sides
+	The class must have an area method that returns the area of the rectangle
+
+Circle:
+	The constructor for Circle mist take one argument that denotes the radius of the circle
+	The Circle class must have an area method that returns the area of the circle. To implement the area method, use a precise Pi value(math.pi)
+
+Round the answer to 2 decimal places
+
+Sample Case
+
+Input:
+2			->number of queries, q=2
+circle 1		-> query parameters = [“circle 1”, “rectangle 2 3”]
+rectangle 2 3
+
+Output:
+3.14
+6.00
+
+Explanation:
+There are 2 queries. In the first of them, an object of class Circle with radius 1 is constructed.
+Then, the value of its area property with exactly 2 decimal points, is printed to the output.
+Since the radius of circle is 1, then the printed area is π〖*radius〗^2.
+In the second query, the object of class Rectangle is constructed with side lengths of 2 and 3.
+Then, the value of its area property, with exactly 2 decimal points, is printed to the output.
+Since the side lengths are 2 and 3, the printed area is 6.00
